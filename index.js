@@ -64,5 +64,5 @@ function clickAnimation(key){
   document.querySelector("."+key).classList.add("pressed");
   setTimeout(function(){
       document.querySelector("."+key).classList.remove("pressed");
-    }   ,100);
+    }   ,10);
 }
